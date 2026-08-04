@@ -1,0 +1,29 @@
+## 🚨 **Python Module Import and Execution Prevention**
+
+### **Problem**: `ModuleNotFoundError: No module named 'src'` when executing scripts inside `src/`.
+```
+Traceback (most recent call last):
+  File "src/models.py", line 28, in <module>
+    from src.preprocessing import ...
+ModuleNotFoundError: No module named 'src'
+```
+
+### **Root Cause**:
+Executing `python src/<script>.py` puts `src/` onto `sys.path`, not the project root directory. Submodules attempting `from src.xxx import yyy` fail unless the project root is added or run as a package module.
+
+### **Prevention Rule**:
+```bash
+# ❌ WRONG - Directly invoking python on src script without PYTHONPATH or module flag
+python src/models.py
+
+# ✅ CORRECT - Either run as module or ensure sys.path includes repository root
+PYTHONPATH=. python -m src.models
+# or in script:
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+```
+
+### **Implementation**:
+1. Add `sys.path.insert(0, str(Path(__file__).resolve().parent.parent))` at the top of executable entry points in `src/`.
+2. Run test and module executions using `PYTHONPATH=. python -m ...` or pytest.
