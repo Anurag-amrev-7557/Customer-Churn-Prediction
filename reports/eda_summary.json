@@ -1,0 +1,282 @@
+{
+  "dataset_rows": 7043,
+  "overall_churn_rate": 0.2654,
+  "segment_profiles": {
+    "Contract": [
+      {
+        "Contract": "Month-to-month",
+        "total_customers": 3875,
+        "churned_customers": 1655,
+        "churn_rate": 0.4271,
+        "avg_monthly_charges": 66.4,
+        "avg_tenure": 18.0
+      },
+      {
+        "Contract": "One year",
+        "total_customers": 1473,
+        "churned_customers": 166,
+        "churn_rate": 0.1127,
+        "avg_monthly_charges": 65.05,
+        "avg_tenure": 42.0
+      },
+      {
+        "Contract": "Two year",
+        "total_customers": 1695,
+        "churned_customers": 48,
+        "churn_rate": 0.0283,
+        "avg_monthly_charges": 60.77,
+        "avg_tenure": 56.7
+      }
+    ],
+    "InternetService": [
+      {
+        "InternetService": "DSL",
+        "total_customers": 2421,
+        "churned_customers": 459,
+        "churn_rate": 0.1896,
+        "avg_monthly_charges": 58.1,
+        "avg_tenure": 32.8
+      },
+      {
+        "InternetService": "Fiber optic",
+        "total_customers": 3096,
+        "churned_customers": 1297,
+        "churn_rate": 0.4189,
+        "avg_monthly_charges": 91.5,
+        "avg_tenure": 32.9
+      },
+      {
+        "InternetService": "No",
+        "total_customers": 1526,
+        "churned_customers": 113,
+        "churn_rate": 0.074,
+        "avg_monthly_charges": 21.08,
+        "avg_tenure": 30.5
+      }
+    ],
+    "PaymentMethod": [
+      {
+        "PaymentMethod": "Bank transfer (automatic)",
+        "total_customers": 1544,
+        "churned_customers": 258,
+        "churn_rate": 0.1671,
+        "avg_monthly_charges": 67.19,
+        "avg_tenure": 43.7
+      },
+      {
+        "PaymentMethod": "Credit card (automatic)",
+        "total_customers": 1522,
+        "churned_customers": 232,
+        "churn_rate": 0.1524,
+        "avg_monthly_charges": 66.51,
+        "avg_tenure": 43.3
+      },
+      {
+        "PaymentMethod": "Electronic check",
+        "total_customers": 2365,
+        "churned_customers": 1071,
+        "churn_rate": 0.4529,
+        "avg_monthly_charges": 76.26,
+        "avg_tenure": 25.2
+      },
+      {
+        "PaymentMethod": "Mailed check",
+        "total_customers": 1612,
+        "churned_customers": 308,
+        "churn_rate": 0.1911,
+        "avg_monthly_charges": 43.92,
+        "avg_tenure": 21.8
+      }
+    ],
+    "TenureCohort": [
+      {
+        "TenureCohort": "0-12 months",
+        "total_customers": 2186,
+        "churned_customers": 1037,
+        "churn_rate": 0.4744,
+        "avg_monthly_charges": 56.1,
+        "avg_tenure": 4.7
+      },
+      {
+        "TenureCohort": "13-24 months",
+        "total_customers": 1024,
+        "churned_customers": 294,
+        "churn_rate": 0.2871,
+        "avg_monthly_charges": 61.36,
+        "avg_tenure": 18.4
+      },
+      {
+        "TenureCohort": "25-48 months",
+        "total_customers": 1594,
+        "churned_customers": 325,
+        "churn_rate": 0.2039,
+        "avg_monthly_charges": 65.93,
+        "avg_tenure": 36.2
+      },
+      {
+        "TenureCohort": "49-72 months",
+        "total_customers": 2239,
+        "churned_customers": 213,
+        "churn_rate": 0.0951,
+        "avg_monthly_charges": 73.95,
+        "avg_tenure": 63.0
+      }
+    ],
+    "SeniorCitizen": [
+      {
+        "SeniorCitizen": 0,
+        "total_customers": 5901,
+        "churned_customers": 1393,
+        "churn_rate": 0.2361,
+        "avg_monthly_charges": 61.85,
+        "avg_tenure": 32.2
+      },
+      {
+        "SeniorCitizen": 1,
+        "total_customers": 1142,
+        "churned_customers": 476,
+        "churn_rate": 0.4168,
+        "avg_monthly_charges": 79.82,
+        "avg_tenure": 33.3
+      }
+    ],
+    "TechSupport": [
+      {
+        "TechSupport": "No",
+        "total_customers": 3473,
+        "churned_customers": 1446,
+        "churn_rate": 0.4164,
+        "avg_monthly_charges": 74.59,
+        "avg_tenure": 25.8
+      },
+      {
+        "TechSupport": "No internet service",
+        "total_customers": 1526,
+        "churned_customers": 113,
+        "churn_rate": 0.074,
+        "avg_monthly_charges": 21.08,
+        "avg_tenure": 30.5
+      },
+      {
+        "TechSupport": "Yes",
+        "total_customers": 2044,
+        "churned_customers": 310,
+        "churn_rate": 0.1517,
+        "avg_monthly_charges": 80.68,
+        "avg_tenure": 44.8
+      }
+    ],
+    "OnlineSecurity": [
+      {
+        "OnlineSecurity": "No",
+        "total_customers": 3498,
+        "churned_customers": 1461,
+        "churn_rate": 0.4177,
+        "avg_monthly_charges": 75.69,
+        "avg_tenure": 25.9
+      },
+      {
+        "OnlineSecurity": "No internet service",
+        "total_customers": 1526,
+        "churned_customers": 113,
+        "churn_rate": 0.074,
+        "avg_monthly_charges": 21.08,
+        "avg_tenure": 30.5
+      },
+      {
+        "OnlineSecurity": "Yes",
+        "total_customers": 2019,
+        "churned_customers": 295,
+        "churn_rate": 0.1461,
+        "avg_monthly_charges": 78.84,
+        "avg_tenure": 45.0
+      }
+    ],
+    "PaperlessBilling": [
+      {
+        "PaperlessBilling": "No",
+        "total_customers": 2872,
+        "churned_customers": 469,
+        "churn_rate": 0.1633,
+        "avg_monthly_charges": 51.99,
+        "avg_tenure": 32.2
+      },
+      {
+        "PaperlessBilling": "Yes",
+        "total_customers": 4171,
+        "churned_customers": 1400,
+        "churn_rate": 0.3357,
+        "avg_monthly_charges": 73.55,
+        "avg_tenure": 32.5
+      }
+    ],
+    "Partner": [
+      {
+        "Partner": "No",
+        "total_customers": 3641,
+        "churned_customers": 1200,
+        "churn_rate": 0.3296,
+        "avg_monthly_charges": 61.95,
+        "avg_tenure": 23.4
+      },
+      {
+        "Partner": "Yes",
+        "total_customers": 3402,
+        "churned_customers": 669,
+        "churn_rate": 0.1966,
+        "avg_monthly_charges": 67.78,
+        "avg_tenure": 42.0
+      }
+    ],
+    "Dependents": [
+      {
+        "Dependents": "No",
+        "total_customers": 4933,
+        "churned_customers": 1543,
+        "churn_rate": 0.3128,
+        "avg_monthly_charges": 67.0,
+        "avg_tenure": 29.8
+      },
+      {
+        "Dependents": "Yes",
+        "total_customers": 2110,
+        "churned_customers": 326,
+        "churn_rate": 0.1545,
+        "avg_monthly_charges": 59.52,
+        "avg_tenure": 38.4
+      }
+    ]
+  },
+  "associations": {
+    "numeric_point_biserial": {
+      "tenure": {
+        "correlation": -0.3522,
+        "p_value": 7.999057960589449e-205
+      },
+      "MonthlyCharges": {
+        "correlation": 0.1934,
+        "p_value": 2.70664560688827e-60
+      },
+      "TotalCharges": {
+        "correlation": -0.1983,
+        "p_value": 2.12721161323998e-63
+      }
+    },
+    "categorical_cramers_v": {
+      "Contract": 0.4101,
+      "OnlineSecurity": 0.3474,
+      "TechSupport": 0.3429,
+      "InternetService": 0.3225,
+      "PaymentMethod": 0.3034,
+      "OnlineBackup": 0.2923,
+      "DeviceProtection": 0.2816,
+      "PaperlessBilling": 0.1915,
+      "Dependents": 0.1639,
+      "SeniorCitizen": 0.1505,
+      "Partner": 0.1501,
+      "MultipleLines": 0.0401,
+      "PhoneService": 0.0114,
+      "gender": 0.0083
+    }
+  }
+}
