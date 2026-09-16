@@ -1,0 +1,186 @@
+{
+  "decile_table": [
+    {
+      "decile": "Decile 1",
+      "customers": 141,
+      "churners": 109,
+      "churn_rate": 0.773,
+      "cum_customers": 141,
+      "cum_churners": 109,
+      "decile_lift": 2.91,
+      "cumulative_lift": 2.91,
+      "cumulative_gain_pct": 29.14,
+      "avg_monthly_charges": 80.28
+    },
+    {
+      "decile": "Decile 2",
+      "customers": 141,
+      "churners": 80,
+      "churn_rate": 0.5674,
+      "cum_customers": 282,
+      "cum_churners": 189,
+      "decile_lift": 2.14,
+      "cumulative_lift": 2.52,
+      "cumulative_gain_pct": 50.53,
+      "avg_monthly_charges": 74.6
+    },
+    {
+      "decile": "Decile 3",
+      "customers": 141,
+      "churners": 54,
+      "churn_rate": 0.383,
+      "cum_customers": 423,
+      "cum_churners": 243,
+      "decile_lift": 1.44,
+      "cumulative_lift": 2.16,
+      "cumulative_gain_pct": 64.97,
+      "avg_monthly_charges": 74.17
+    },
+    {
+      "decile": "Decile 4",
+      "customers": 141,
+      "churners": 53,
+      "churn_rate": 0.3759,
+      "cum_customers": 564,
+      "cum_churners": 296,
+      "decile_lift": 1.42,
+      "cumulative_lift": 1.98,
+      "cumulative_gain_pct": 79.14,
+      "avg_monthly_charges": 65.13
+    },
+    {
+      "decile": "Decile 5",
+      "customers": 141,
+      "churners": 27,
+      "churn_rate": 0.1915,
+      "cum_customers": 705,
+      "cum_churners": 323,
+      "decile_lift": 0.72,
+      "cumulative_lift": 1.73,
+      "cumulative_gain_pct": 86.36,
+      "avg_monthly_charges": 74.98
+    },
+    {
+      "decile": "Decile 6",
+      "customers": 140,
+      "churners": 23,
+      "churn_rate": 0.1643,
+      "cum_customers": 845,
+      "cum_churners": 346,
+      "decile_lift": 0.62,
+      "cumulative_lift": 1.54,
+      "cumulative_gain_pct": 92.51,
+      "avg_monthly_charges": 71.69
+    },
+    {
+      "decile": "Decile 7",
+      "customers": 141,
+      "churners": 15,
+      "churn_rate": 0.1064,
+      "cum_customers": 986,
+      "cum_churners": 361,
+      "decile_lift": 0.4,
+      "cumulative_lift": 1.38,
+      "cumulative_gain_pct": 96.52,
+      "avg_monthly_charges": 57.72
+    },
+    {
+      "decile": "Decile 8",
+      "customers": 141,
+      "churners": 8,
+      "churn_rate": 0.0567,
+      "cum_customers": 1127,
+      "cum_churners": 369,
+      "decile_lift": 0.21,
+      "cumulative_lift": 1.23,
+      "cumulative_gain_pct": 98.66,
+      "avg_monthly_charges": 59.27
+    },
+    {
+      "decile": "Decile 9",
+      "customers": 141,
+      "churners": 3,
+      "churn_rate": 0.0213,
+      "cum_customers": 1268,
+      "cum_churners": 372,
+      "decile_lift": 0.08,
+      "cumulative_lift": 1.11,
+      "cumulative_gain_pct": 99.47,
+      "avg_monthly_charges": 50.24
+    },
+    {
+      "decile": "Decile 10",
+      "customers": 141,
+      "churners": 2,
+      "churn_rate": 0.0142,
+      "cum_customers": 1409,
+      "cum_churners": 374,
+      "decile_lift": 0.05,
+      "cumulative_lift": 1.0,
+      "cumulative_gain_pct": 100.0,
+      "avg_monthly_charges": 32.85
+    }
+  ],
+  "campaign_simulation_top_20pct": {
+    "target_fraction": 0.2,
+    "customers_targeted": 281,
+    "total_test_customers": 1409,
+    "actual_churners_captured": 188,
+    "total_churners": 374,
+    "churners_captured_pct": 50.27,
+    "campaign_cost": 11240.0,
+    "gross_revenue_saved": 52251.66,
+    "net_profit": 41011.66,
+    "roi_pct": 364.87,
+    "random_net_profit": 5968.85,
+    "lift_over_random": 35042.81
+  },
+  "campaign_simulation_top_10pct": {
+    "target_fraction": 0.1,
+    "customers_targeted": 140,
+    "total_test_customers": 1409,
+    "actual_churners_captured": 108,
+    "total_churners": 374,
+    "churners_captured_pct": 28.88,
+    "campaign_cost": 5600.0,
+    "gross_revenue_saved": 30840.84,
+    "net_profit": 25240.84,
+    "roi_pct": 450.73,
+    "random_net_profit": 2973.81,
+    "lift_over_random": 22267.03
+  },
+  "campaign_simulation_top_30pct": {
+    "target_fraction": 0.3,
+    "customers_targeted": 422,
+    "total_test_customers": 1409,
+    "actual_churners_captured": 243,
+    "total_churners": 374,
+    "churners_captured_pct": 64.97,
+    "campaign_cost": 16880.0,
+    "gross_revenue_saved": 67031.28,
+    "net_profit": 50151.28,
+    "roi_pct": 297.1,
+    "random_net_profit": 8963.9,
+    "lift_over_random": 41187.38
+  },
+  "retention_playbooks": [
+    {
+      "tier": "Tier 1: Critical Flight Risk (Deciles 1-2, Probability > 60%)",
+      "profile": "Month-to-month contracts, fiber optic, high monthly charges ($75+), tenure < 12m",
+      "action": "Immediate proactive outreach by senior retention specialist; offer 1-year contract lock-in with 20% discount and free tech support trial.",
+      "target_save_rate": "30-35%"
+    },
+    {
+      "tier": "Tier 2: Moderate Risk (Deciles 3-4, Probability 40-60%)",
+      "profile": "Electronic check payers, lacking security/backup add-ons, moderate tenure",
+      "action": "Automated in-app/email campaign offering $5/month autopay discount (transitioning from electronic check to credit card/bank transfer) and complimentary online backup.",
+      "target_save_rate": "20-25%"
+    },
+    {
+      "tier": "Tier 3: Low Risk / Healthy Accounts (Deciles 5-10, Probability < 40%)",
+      "profile": "Longer tenure (> 24m), 1-2 year contracts, bundled services",
+      "action": "Do NOT discount or contact with retention offers (avoids margin cannibalization). Focus on loyalty rewards and service upgrade cross-selling.",
+      "target_save_rate": "Organic retention (>95%)"
+    }
+  ]
+}
